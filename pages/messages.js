@@ -6,11 +6,8 @@ import {
 } from "@material-ui/core";
 import { Add } from "@material-ui/icons";
 import axios from "axios";
-import { useRouter } from "next/router";
-import { useEffect } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import Page from "../src/components/Page";
 import { setUsers } from "../src/slices/usersSlice";
 import { wrapper } from "../src/store/store";
 import Link from "../src/components/Link";
